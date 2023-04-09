@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/store"
+        android:title="스토어"
+        android:icon="@drawable/store"/>
+
+    <item
+        android:id="@+id/shoppinglist"
+        android:title="리스트"
+        android:icon="@drawable/shopping_list"/>
+
+    <item
+        android:id="@+id/home"
+        android:title="홈"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/recipe"
+        android:title="레시피"
+        android:icon="@drawable/recipe"/>
+
+    <item
+        android:id="@+id/setting"
+        android:title="설정"
+        android:icon="@drawable/setting"/>
+</menu>

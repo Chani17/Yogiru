@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="30dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/recipe_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="식품명"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/thedodam" />
+
+    <ScrollView
+        android:id="@+id/recipeScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:text="재료"
+                android:fontFamily="@font/thedodam"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/recipe_ingredient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:lineSpacingExtra="10dp"
+                android:text="재료 1, 재료 2, 재료 3 ..."
+                android:fontFamily="@font/thedodam" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:text="과정"
+                android:fontFamily="@font/thedodam"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/recipe_process"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:lineSpacingExtra="10dp"
+                android:text="1 ~~~\n2 ~~~\n3 ~~~\n......"
+                android:fontFamily="@font/thedodam" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

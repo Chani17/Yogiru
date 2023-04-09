@@ -1,0 +1,159 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradienta"
+    android:font = "@font/thedodam"
+    android:orientation="vertical"
+    tools:context=".RecipeActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/border_gray"
+        app:elevation="0dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        tools:layout_editor_absoluteX="20dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:menu="@menu/toolbar_menu"
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/item_background"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="120dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/thedodam"
+            android:text="오늘은 무슨 음식을 요리해 볼까요?"
+            android:textColor="@color/black"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+
+            <EditText
+                android:id="@+id/recipe_name_input"
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:paddingHorizontal="10dp"
+                android:fontFamily="@font/thedodam"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/round_input" />
+
+            <ImageButton
+                android:id="@+id/recipe_search"
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="7dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                app:srcCompat="@drawable/shopping_list_search" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/recipe_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/thedodam"
+                android:text="맛있는 "
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/recipe_name_output"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/thedodam"
+                android:text="(         )"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0F70B7" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/thedodam"
+                android:text=" 레시피 보러 가기"
+                android:textSize="18sp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/naver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:backgroundTint="#00FFFFFF"
+                app:srcCompat="@drawable/naver" />
+
+            <ImageButton
+                android:id="@+id/youtube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#00FFFFFF"
+                app:srcCompat="@drawable/youtube" />
+
+            <ImageButton
+                android:id="@+id/tenthousand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#00FFFFFF"
+                app:srcCompat="@drawable/tenthousand" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

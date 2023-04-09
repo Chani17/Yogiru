@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programming/AppDevelopment/restructversion-ver1/app/src/main/res/drawable/item_pink_background.xml" value="0.3165" />
+        <entry key="..\:/Programming/AppDevelopment/restructversion-ver1/app/src/main/res/layout/activity_food_detail_item.xml" value="0.3046875" />
+        <entry key="..\:/Programming/AppDevelopment/restructversion-ver1/app/src/main/res/layout/activity_item.xml" value="0.12604166666666666" />
+        <entry key="..\:/Programming/AppDevelopment/restructversion-ver1/app/src/main/res/layout/activity_standard_expirationdate.xml" value="0.3046875" />
+        <entry key="..\:/src/restructversion/app/src/main/res/drawable/background_round.xml" value="0.26979166666666665" />
+        <entry key="..\:/src/restructversion/app/src/main/res/drawable/border_gray.xml" value="0.26979166666666665" />
+        <entry key="..\:/src/restructversion/app/src/main/res/drawable/button_rippe_effect.xml" value="0.38229166666666664" />
+        <entry key="..\:/src/restructversion/app/src/main/res/drawable/button_ripple_effect.xml" value="0.26979166666666665" />
+        <entry key="..\:/src/restructversion/app/src/main/res/drawable/ic_shutter.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/drawable/menu.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/drawable/round_input.xml" value="0.26979166666666665" />
+        <entry key="..\:/src/restructversion/app/src/main/res/drawable/round_list_item.xml" value="0.26979166666666665" />
+        <entry key="..\:/src/restructversion/app/src/main/res/drawable/round_list_item_green.xml" value="0.26979166666666665" />
+        <entry key="..\:/src/restructversion/app/src/main/res/drawable/round_list_item_red.xml" value="0.26979166666666665" />
+        <entry key="..\:/src/restructversion/app/src/main/res/drawable/selector.xml" value="0.14583333333333334" />
+        <entry key="..\:/src/restructversion/app/src/main/res/drawable/toggle_style.xml" value="0.26979166666666665" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_camera.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_cameraintegration.xml" value="0.2" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_cameratest.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_detector.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_food_detail.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_food_detail_item.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_food_list.xml" value="0.21784420289855072" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_item.xml" value="0.22871376811594202" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_recipe.xml" value="0.264" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_recipe_recommendation.xml" value="0.36614583333333334" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_register_food.xml" value="0.264" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_setting.xml" value="0.152" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_settings.xml" value="0.22871376811594202" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_shopping_list.xml" value="0.264" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_store.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_timepicker.xml" value="0.264" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_vision_camerax_live_preview.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_vision_cameraxsource_demo.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/activity_vision_live_preview.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/edit_dialog.xml" value="0.21195652173913043" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/list_item.xml" value="0.4" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/recipe_dialog.xml" value="0.36614583333333334" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/settings_style.xml" value="0.22871376811594202" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/spinner_style.xml" value="0.22871376811594202" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/tfe_od_activity_camera.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/tfe_od_camera_connection_fragment_tracking.xml" value="0.22871376811594202" />
+        <entry key="..\:/src/restructversion/app/src/main/res/layout/tfe_od_layout_bottom_sheet.xml" value="0.22871376811594202" />
+        <entry key="..\:/src/restructversion/app/src/main/res/menu/bottom_navigation.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/menu/camera_navigation.xml" value="0.264" />
+        <entry key="..\:/src/restructversion/app/src/main/res/menu/menu_navigation.xml" value="0.1" />
+        <entry key="..\:/src/restructversion/app/src/main/res/menu/toolbar_menu.xml" value="0.264" />
+        <entry key="..\:/src/restructversion/app/src/main/res/xml/preference.xml" value="0.264" />
+        <entry key="..\:/src/restructversion/app/src/main/res/xml/preference_live_preview_quickstart.xml" value="0.264" />
+        <entry key="..\:/src/restructversion/app/src/main/res/xml/preference_still_image.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
